@@ -19,6 +19,7 @@ copy-on-select = clipboard
 clipboard-paste-protection = true
 confirm-close-surface = false
 scrollback-limit = 100000000
+command = zsh
 shell-integration = zsh
 shell-integration-features = cursor,sudo,title,ssh-env,ssh-terminfo
 window-inherit-working-directory = true
