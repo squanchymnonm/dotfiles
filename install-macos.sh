@@ -18,7 +18,8 @@ bash zsh/setup.sh
 
 echo "==> Neovim + LazyVim"
 brew install neovim ripgrep fd lazygit
-[ -e ~/.config/nvim ] || { git clone -q https://github.com/LazyVim/starter ~/.config/nvim && rm -rf ~/.config/nvim/.git; }
+[ -e ~/.config/nvim ] && mv ~/.config/nvim ~/.config/nvim.bak.$(date +%s)
+cp -r nvim ~/.config/nvim
 
 echo "==> Fuente JetBrainsMono Nerd Font"
 if ! ls ~/Library/Fonts /Library/Fonts 2>/dev/null | grep -q "JetBrainsMonoNerdFont"; then

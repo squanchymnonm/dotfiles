@@ -11,7 +11,8 @@ Configuración de mi sistema (Ubuntu/GNOME y macOS).
 
 ### Neovim
 
-- Neovim + LazyVim (starter), con ripgrep, fd y lazygit.
+- Neovim + LazyVim con mi config (`nvim/` → `~/.config/nvim`), con ripgrep, fd y lazygit.
+- Projects del dashboard = carpetas dentro de `~/Develop`.
 
 ## Linux (Ubuntu/GNOME)
 
