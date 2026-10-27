@@ -1,4 +1,4 @@
-# ghostty-setup
+# ghostty-config
 
 Mi Ghostty en Ubuntu/GNOME (Wayland):
 
