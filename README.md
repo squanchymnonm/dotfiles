@@ -12,7 +12,7 @@ Configuración de mi sistema (Ubuntu/GNOME y macOS).
 ### Neovim
 
 - Neovim + LazyVim con mi config (`nvim/` → `~/.config/nvim`), con ripgrep, fd y lazygit.
-- Projects del dashboard = carpetas dentro de `~/Develop`.
+- Projects del dashboard = cada repo git dentro de `~/Develop` (hasta 2 niveles, ej. `Artisano/Back`).
 - Extras: PHP (intelephense), tests (Pest/PHPUnit), SQL (dadbod, `Espacio D`), Docker, YAML, JSON, Tailwind, TypeScript, Vue, Git, Octo y Claude Code (`Espacio a c`).
 - Plugins extra (`nvim/lua/plugins/dev.lua`): laravel.nvim (`Espacio L`) y formateo con Pint, ambos vía el contenedor `workspace` en Artisano (PHP no se instala local), blade-nav y diffview (`Espacio g v`).
 
