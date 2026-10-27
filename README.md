@@ -1,6 +1,8 @@
-# ghostty-config
+# dotfiles
 
-Mi Ghostty en Ubuntu/GNOME (Wayland):
+Configuración de mi sistema (Ubuntu/GNOME y macOS).
+
+### Ghostty
 
 - `F12`: muestra/oculta Ghostty estilo guake (arriba, ancho completo, mitad de alto) en el monitor del mouse.
 - `F11`: maximiza / restaura.
