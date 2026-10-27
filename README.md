@@ -13,6 +13,8 @@ Configuración de mi sistema (Ubuntu/GNOME y macOS).
 
 - Neovim + LazyVim con mi config (`nvim/` → `~/.config/nvim`), con ripgrep, fd y lazygit.
 - Projects del dashboard = carpetas dentro de `~/Develop`.
+- Extras: PHP (intelephense), tests (Pest/PHPUnit), SQL (dadbod, `Espacio D`), Docker, YAML, JSON, Tailwind, TypeScript, Vue, Git, Octo y Claude Code (`Espacio a c`).
+- Plugins extra (`nvim/lua/plugins/dev.lua`): laravel.nvim (`Espacio L`, PHP vía el contenedor `workspace` en Artisano), blade-nav y diffview (`Espacio g v`).
 
 ## Linux (Ubuntu/GNOME)
 

@@ -19,7 +19,7 @@ fi
 bash zsh/setup.sh
 
 echo "==> Neovim + LazyVim"
-sudo apt-get install -y neovim ripgrep fd-find lazygit
+sudo apt-get install -y neovim ripgrep fd-find lazygit python3-venv
 [ -e ~/.config/nvim ] && mv ~/.config/nvim ~/.config/nvim.bak.$(date +%s)
 cp -r nvim ~/.config/nvim
 
