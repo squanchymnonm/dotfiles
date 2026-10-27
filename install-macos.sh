@@ -16,6 +16,10 @@ echo "==> zsh + Oh My Zsh + powerlevel10k"
 command -v zsh >/dev/null || brew install zsh
 bash zsh/setup.sh
 
+echo "==> Neovim + LazyVim"
+brew install neovim ripgrep fd lazygit
+[ -e ~/.config/nvim ] || { git clone -q https://github.com/LazyVim/starter ~/.config/nvim && rm -rf ~/.config/nvim/.git; }
+
 echo "==> Fuente JetBrainsMono Nerd Font"
 if ! ls ~/Library/Fonts /Library/Fonts 2>/dev/null | grep -q "JetBrainsMonoNerdFont"; then
     brew install --cask font-jetbrains-mono-nerd-font

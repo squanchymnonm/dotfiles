@@ -18,6 +18,10 @@ if ! command -v zsh >/dev/null; then
 fi
 bash zsh/setup.sh
 
+echo "==> Neovim + LazyVim"
+sudo apt-get install -y neovim ripgrep fd-find lazygit
+[ -e ~/.config/nvim ] || { git clone -q https://github.com/LazyVim/starter ~/.config/nvim && rm -rf ~/.config/nvim/.git; }
+
 echo "==> Fuente JetBrainsMono Nerd Font"
 if ! fc-list | grep -q "JetBrainsMono Nerd Font"; then
     dir="$HOME/.local/share/fonts/JetBrainsMono"

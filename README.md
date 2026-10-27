@@ -9,6 +9,10 @@ Configuración de mi sistema (Ubuntu/GNOME y macOS).
 - zsh como shell de Ghostty, con Oh My Zsh + powerlevel10k (+ autosuggestions y syntax-highlighting).
 - Barra de tabs compacta con botón `+`, fondo al 80% (`ghostty/tabs.css`).
 
+### Neovim
+
+- Neovim + LazyVim (starter), con ripgrep, fd y lazygit.
+
 ## Linux (Ubuntu/GNOME)
 
 ```sh
