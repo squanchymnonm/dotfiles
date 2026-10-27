@@ -1,0 +1,5 @@
+
+# --- macOS: quick terminal nativo en vez de la extensión GNOME ---
+# F12 global (requiere permiso de Accesibilidad para Ghostty)
+keybind = global:f12=toggle_quick_terminal
+quick-terminal-size = 50%
