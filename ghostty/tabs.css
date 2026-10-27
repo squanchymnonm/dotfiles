@@ -1,0 +1,44 @@
+/* barra de tabs compacta */
+tabbar .box {
+  min-height: 0;
+  padding: 2px 4px;
+}
+toolbarview > .top-bar.raised,
+toolbarview > .top-bar.raised:backdrop {
+  background-color: color-mix(in srgb, var(--headerbar-bg-color) 80%, transparent);
+}
+tabbar .box {
+  background-color: transparent;
+}
+/* headerbar compacta (titlebar estilo tabs) */
+headerbar {
+  min-height: 0;
+  padding: 0 4px;
+  background-color: transparent;
+  box-shadow: none;
+}
+headerbar button {
+  min-height: 20px;
+  min-width: 20px;
+  padding: 0 4px;
+  margin: 2px 0;
+}
+windowcontrols button {
+  min-height: 18px;
+  min-width: 18px;
+  padding: 0;
+}
+toolbarview > .top-bar.raised {
+  box-shadow: 0 1px color-mix(in srgb, var(--headerbar-shade-color) 60%, transparent),
+              0 2px 4px color-mix(in srgb, var(--headerbar-shade-color) 60%, transparent);
+}
+tabbar tab {
+  min-height: 20px;
+  padding: 0 6px;
+  font-size: 0.85em;
+}
+tabbar tab button {
+  min-height: 16px;
+  min-width: 16px;
+  padding: 0;
+}

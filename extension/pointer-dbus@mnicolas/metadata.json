@@ -1,0 +1,6 @@
+{
+  "uuid": "pointer-dbus@mnicolas",
+  "name": "Pointer DBus",
+  "description": "Expone la posición del mouse por DBus (para Guake en Wayland)",
+  "shell-version": ["50"]
+}
